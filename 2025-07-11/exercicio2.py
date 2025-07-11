@@ -20,7 +20,7 @@ def criaDicionario(alfabeto, vogais):
                         c = alfabeto[i]
                     break
             if letra == 'z':
-                cifra += 'uz'
+                d['z'] = 'zuz'
             else:
                 cifra += c
                 for i in range(k+1, len(alfabeto)):
@@ -30,10 +30,9 @@ def criaDicionario(alfabeto, vogais):
                         break
     return d
 d = criaDicionario(alfabeto, vogais)
-d['z'] = 'zuz'
 palavra = input()
 cifrado = ""
 
-for letra in pala   vra:
+for letra in palavra:
         cifrado += d[letra]
 print(cifrado)
