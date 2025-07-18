@@ -1,0 +1,4 @@
+Debugando:
+1) Controle intelectual informal sobre o código: ler tudo antes de executar e se perguntar: O programa faz o que quero?
+2) Usar print() para achar a parte defeituosa do código.
+3) Usar print() para imprimir o valor das variáveis. São valores que eu esperava, ou estão errados?
