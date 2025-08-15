@@ -1,3 +1,5 @@
+#Problema da OBI, 2021, Cálculo rápido
+
 S, A, B = int(input()), int(input()), int(input())
 cont = 0
 for num in range(A, B+1):
