@@ -1,3 +1,5 @@
+#Problema da OBI, 2006, Penalidade Mínima
+
 def calculaPenalidade(num):
     num = str(num)
     num = num[::-1]
