@@ -1,0 +1,9 @@
+Aprendemos árvore binária e o significado de 'referência', no contexto de LP orientada a objeto.
+
+Também aprendemos que, em Python, todo valor é um objeto.
+
+Ex:
+l = [1, 2, 3, 4]
+l2 = l
+
+#l e l2 referenciam a mesma lista
